@@ -8,7 +8,7 @@ var requestOptions = {
 function printReverse (html) {
 
   /* Write your code here! */
-
+console.log(html.split('').reverse().join(''));
 }
 
 getHTML(requestOptions, printReverse);
